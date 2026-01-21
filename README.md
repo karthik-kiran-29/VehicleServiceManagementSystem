@@ -2,6 +2,9 @@
 
 A **Java console application** to manage and track the complete service history of vehicles in an automobile workshop or service center.
 
+<img width="692" height="257" alt="image" src="https://github.com/user-attachments/assets/5985a03e-b89c-4cb3-85b5-733c6722942f" />
+
+
 ## 🚗 Features
 - Register vehicles with owner and model details  
 - Add and manage vehicle service records  
