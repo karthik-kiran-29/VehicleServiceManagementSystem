@@ -5,6 +5,13 @@ public class Vehicle {
 	private String ownerName;
 	private String model;
 	
+	public Vehicle(String vehicleId, String ownerName, String model) {
+		super();
+		this.vehicleId = vehicleId;
+		this.ownerName = ownerName;
+		this.model = model;
+	}
+	
 	public String getVehicleId() {
 		return vehicleId;
 	}
@@ -17,6 +24,11 @@ public class Vehicle {
 	public void setOwnerName(String ownerName) {
 		this.ownerName = ownerName;
 	}
+	@Override
+	public String toString() {
+		return "Vehicle [vehicleId=" + vehicleId + ", ownerName=" + ownerName + ", model=" + model + "]";
+	}
+
 	public String getModel() {
 		return model;
 	}

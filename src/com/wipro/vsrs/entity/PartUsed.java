@@ -4,6 +4,11 @@ public class PartUsed {
 	private String partName;
 	private double cost;
 	
+	public PartUsed(String partName, double cost) {
+		super();
+		this.partName = partName;
+		this.cost = cost;
+	}
 	public String getPartName() {
 		return partName;
 	}

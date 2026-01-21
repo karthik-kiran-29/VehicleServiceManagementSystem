@@ -10,6 +10,19 @@ public class ServiceRecord {
 	 private double laborCharges;
 	 private ArrayList<PartUsed> partsUsed;
 	 private double totalCost;
+	 
+	 
+	public ServiceRecord(String serviceId, String vehicleId, String serviceDate, String notes, double laborCharges,
+			ArrayList<PartUsed> partsUsed, double totalCost) {
+		super();
+		this.serviceId = serviceId;
+		this.vehicleId = vehicleId;
+		this.serviceDate = serviceDate;
+		this.notes = notes;
+		this.laborCharges = laborCharges;
+		this.partsUsed = partsUsed;
+		this.totalCost = totalCost;
+	}
 	public String getServiceId() {
 		return serviceId;
 	}
